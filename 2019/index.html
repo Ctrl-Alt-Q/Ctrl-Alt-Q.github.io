@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ctrl + Alt + Q</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body id="mainPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#mainPage"><img src="./files/logo.png"></a>
+    </div>
+    <!-- <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#intro">Intro</a></li>
+		<li><a href="#dates">Dates</a></li>
+		<li><a href="#topics">Topics</a></li>
+		<li><a href="#submission">Submission</a></li>
+        <li><a href="#committee">Committee</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+		<li><a href="#location">Location</a></li>
+		<li><a href="#program">Program</a></li>
+      </ul>
+    </div> -->
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+<!-- <h1>Ctrl + Alt + Q</h1> -->
+<h3>1st International Workshop on</h3>
+<h3><b>Control of Alternatives and Quality</b></h3>
+<h3>September 2019, Paris, France</h3>
+<i>held in conjunction with SPLC2019 - 23rd International Software Product Line Conference - Sept 9-13 2019</i>
+</div>
+
+<div id="intro" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-7">
+<h2>Introduction</h2>
+This workshop focuses on the state-of-the-art and practice of using variability management techniques to enable the exploration of design, architecture, implementation alternatives regarding the relevant quality attributes of a system or families of systems. Safety, Security and Performance are examples of quality attributes from which quality-of-service must be measured and analysed in configurable or adaptive software architectures and systems. Quality attributes need to be consolidated (i.e., single quality attributes can be independently analysed or tested with different techniques), and, given that quality attributes use to be interlinked, they need to be aggregated (i.e., a combined analysis of different quality attributes should be performed to identify tradeoffs or to conduct multi-criteria optimization). The latter point complexity is usually aggravated because of the different domains of expertise and life-cycles of the different quality attributes. In this context, interaction points and interference analysis mechanisms should be in place to avoid the late detection of conflicting quality attributes (at design time or at runtime in self-adaptive systems). While the intended focus is on co-engineering safety-, security-, performance- critical systems, any other quality attribute (usability, energy consumption etc.) is welcome.
+    </div>
+	<div class="col-sm-3">
+Held in conjunction with<br/>
+<a href="http://www.splc2019.net/" target="_new"><img src="./files/splcLogo.png" alt="SPLC 2019"></a><br/><br/>
+Workshop organized by<br/>
+<a href="http://www.tecnalia.com/" target="_new"><img src="./files/logo1.jpg"></a>
+<br/>
+<a href="https://www.telecom-paristech.fr/" target="_new"><img src="./files/logo2.png"></a>
+<br/>
+<a href="http://www.univaq.it/en/" target="_new"><img src="./files/logo3.jpg"></a>
+<br/>
+<a href="http://www.magillem.com/" target="_new"><img src="./files/logo4.png"></a>
+	</div>
+  </div>
+</div>
+
+<div id="dates" class="container-fluid bg-grey">
+<div class="row">
+<div class="col-sm-2"></div>
+    <div class="col-sm-8">
+	<h2>Important dates</h2>
+     <p>
+<!--<b>Paper submissions:</b> <b><strike>Friday, January 11</strike></b> <img src="./files/accept.gif" alt="Closed">-->
+Paper submissions: May 28, 2019<br/>
+Paper notifications: June 18, 2019<br/>
+Final version of papers: July 2, 2019<br/>
+Workshop: 9 or 10 September 2019 TBD<br/>
+SPLC 2019 Conference: 9-13 September 2019<br/>
+</p>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+
+<div id="topics" class="container-fluid">
+  <div class="row">
+  <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Topics</h2>
+<p>
+We will encourage submissions that push the state of the art and practice in the following topics (but not limited to):
+</p><ul>
+<li>
+<b>Quality Assurance and Variability</b>
+</li>
+<ul>
+<li>
+Quality-of-service of variability-aware software architectures and systems
+</li>
+<li>
+Safety-critical configurable systems
+</li>
+<li>
+Cyber-security and configurable systems
+</li>
+<li>
+Performance, usability, energy consumption, resource limitations, strict real-time constraints, and, in general, any domain-specific quality attribute on configurable systems
+</li>
+<li>
+Testing functional and non-functional properties of configurable systems
+</li>
+<li>
+Case studies of configurable systems using variability models with quality attributes
+</li>
+<li>
+Metrics for quality attributes enabling alternatives exploration
+</li>
+<li>
+Theoretical or empirical validation of aggregated quality assurance
+</li>
+<li>
+Surveys, mapping studies, comparative analysis, and literature reviews
+</li>
+<li>
+Tools
+</li>
+</ul>
+<li>
+<b>Alternatives/Space Exploration</b>
+</li>
+<ul>
+<li>
+Mono-criteria optimization of configurations
+</li>
+<li>
+Multi-criteria optimization of configurations
+</li>
+<li>
+Design alternatives exploration
+</li>
+<li>
+Architecture alternatives exploration
+</li>
+<li>
+Implementation alternatives exploration
+</li>
+<li>
+Tools to support alternatives/space exploration
+</li>
+<li>
+Case studies on specific domains
+</li>
+</ul>
+<li>
+<b>Quality Aspects across the Product-Life Cycle</b>
+</li>
+<ul>
+<li>
+Inter-dependency analysis of quality attributes in variability-aware systems and SPLs
+</li>
+<li>
+Product life-cycle and aggregated quality assurance of systems
+</li>
+<li>
+Early identification of quality attribute tradeoffs vs. expensive late detection
+</li>
+<li>
+Co-engineering regarding quality attributes in variability-aware systems and SPLs
+</li>
+<li>
+Quality-driven product configuration
+</li>
+<li>
+Organizational issues in dealing with several quality attributes
+</li>
+<li>
+Quality assessment activities in SPL development processes
+</li>
+<li>
+Quality assurance as part of regulations and standards conformance of configurable systems
+</li>
+<li>
+Criticality level comparison among system qualities
+</li>
+<li>
+Mediation techniques among system qualities inside organizations dealing with SPLs and configurable systems
+</li>
+</ul>
+<li>
+<b>Scenarios</b>
+</li>
+<ul>
+<li>
+Quality aspects of self-adaptive systems and dynamic product lines
+</li>
+<li>
+Model-driven approaches for aggregated quality assurance and variability
+</li>
+<li>
+Simulation and aggregated quality assurance
+</li>
+<li>
+Testing and aggregated quality assurance
+</li>
+</ul>
+</ul>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+<div id="submission" class="container-fluid bg-grey">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Submission details</h2>
+<p></p>
+<p>Ctrl + Alt + Q proceedings will be included in SPLC proceedings (Volume 2)</p>
+<p>
+<b>Submission types:</b> Authors interested in participating in the workshop are requested to submit either:
+</p>
+<p>
+</p><ul>
+<li>
+Regular paper (max. 8 pages) that presents original research or industrial experience report
+</li>
+<li>
+Short paper (4 pages) that describes sound new ideas and concepts that are under research or experimental studies at industrial settings.
+</li>
+</ul>
+<p></p>
+<p>
+<b>Format:</b> Submissions must follow the 2017 ACM Master Article Template.
+<br>Templates for Word and LaTeX are available at <a href="https://www.acm.org/publications/proceedings-template" target="_new">https://www.acm.org/publications/proceedings-template</a>
+</p>
+<p>
+<b>Submission:</b> All papers submitted to the workshop must be unpublished original work and must not have been submitted anywhere else for publication. Each paper will be reviewed by three PC members and accepted papers will be selected based on quality, novelty, and relevance to the workshop topic. At least one author should register and present the paper during the workshop.
+<br/>Papers should be submitted via <a href="http://www.easychair.org/conferences/?conf=ctrlaltq2019" target="_new">http://www.easychair.org/conferences/?conf=ctrlaltq2019</a>. 
+</p>
+<p>
+</p>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+<div id="committee" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Technical Program Committee</h2>
+<ul>
+<li>
+John Favaro, Intecs, Italy
+</li>
+<li>
+Vittoriano Muttillo, University of L'Aquila, Italy
+</li>
+<li>
+Charles Robinson, Thales, France
+</li>
+<li>
+Xabier Larrucea, Tecnalia, Spain
+</li>
+<li>
+Radek Fujdiak, Brno University of Technology, Czech republic
+</li>
+<li>
+<b>Others to be confirmed</b>
+</li>
+</ul>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+<div id="organizers" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Organizers</h2>
+<ul>
+<li>
+Jabier Martinez, Digital Trust Technologies (TRUSTECH), Tecnalia, Derio, Spain <a href="mailto:jabier.martinez@tecnalia.com?subject=CtrlAltQ%20workshop" target="_new"><span class="glyphicon glyphicon-envelope"></span></a> <b>(Main Contact)</b>
+</li>
+<li>
+Ludovic Apvrille, Electrical and Computer Engineering Department, LabSoC laboratory, Telecom ParisTech, Sophia Antipolis, France
+</li>
+<li>
+Luigi Pomante, DISIM/DEWS, University of L'Aquila, L'Aquila, Italy
+</li>
+<li>
+Matthieu Pfeiffer, and Emmanuel Vaumorin, Magillem, Paris, France
+</li>
+</ul>
+<p></p>
+<a href="http://www.tecnalia.com/" target="_new"><img src="./files/logo1.jpg"></a>&nbsp; &nbsp;
+<a href="https://www.telecom-paristech.fr/" target="_new"><img src="./files/logo2.png"></a>&nbsp; &nbsp;
+<a href="http://www.univaq.it/en/" target="_new"><img src="./files/logo3.jpg"></a>&nbsp; &nbsp;
+<a href="http://www.magillem.com/" target="_new"><img src="./files/logo4.png"></a>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+<div id="location" class="container-fluid bg-grey">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Location</h2>
+
+<b><a href="https://splc2019.net/about/venue/" target="_new">Venue information of SPLC 2019</a></b></br>
+SPLC2019 will be hosted by FIAP Jean Monnet conference center, located at 30 rue Cabanis, 75014 Paris.</br>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+<div id="program" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Workshop program</h2>
+</br>
+To be defined.
+</br>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#mainPage']").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
