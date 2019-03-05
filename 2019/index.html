@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body id="mainPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -38,6 +38,13 @@
   </div>
 </nav>
 
+<div id="wrapper">
+<div class="jumbotron text-center">
+<canvas id="canvas" width="1950px" height="400px"></canvas>
+<canvas id="canvasbg" width="1950px" height="400px"></canvas>
+</div>
+</div>
+
 <div class="jumbotron text-center">
 <!-- <h1>Ctrl + Alt + Q</h1> -->
 <br/>
@@ -46,6 +53,7 @@
 <h3>September 2019, Paris, France</h3>
 <i>held in conjunction with SPLC2019 - 23rd International Software Product Line Conference - Sept 9-13 2019</i>
 </div>
+
 
 <div id="intro" class="container-fluid">
   <div class="row">
@@ -386,6 +394,7 @@ $(document).ready(function(){
   });
 })
 </script>
+  <script src="effect.js"></script>
 
 </body>
 </html>

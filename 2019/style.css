@@ -1,4 +1,39 @@
+/* added for the effect */
 
+#wrapper {
+  height:100%;
+  width:100%;
+  text-align: center;
+  display: table;
+  position:absolute;
+  background-color: transparent;
+}
+
+#title {
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 999;
+}
+
+#wrapper canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1950px;
+  height: auto; 
+}
+
+#canvas {
+  z-index: 1;
+}
+#canvasbg {
+  z-index: -10;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  filter: blur(3px);
+  opacity: 0.6;
+}
 
 body {
       font: 400 15px 'Source Serif Pro', serif;
@@ -20,7 +55,9 @@ body {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #FFFFFF;
+  	overflow: hidden; /* added for the effect */
+  	background-color: transparent;
+      /*background-color: #FFFFFF; */
       color: #000;
       padding: 100px 25px;
       font-family: 'Source Serif Pro', serif; /*'Roboto', sans-serif;*/
