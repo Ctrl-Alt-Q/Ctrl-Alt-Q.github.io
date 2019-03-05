@@ -46,7 +46,7 @@ var colors = ['52,168,83', '117,95,147', '199,108,23', '194,62,55', '0,172,212',
 var backgroundMlt = 0.85;
 
 //min distance for links
-var linkDist = Math.min(canvas.width, canvas.height) / 2.4,
+var linkDist = Math.min(canvas.width, canvas.height) / 2,//2.4,
   lineBorder = 2.5;
 
 //most importantly: number of overall circles and arrays containing them
@@ -108,7 +108,8 @@ function drawCircle(ctx, circle) {
   //circle.radius *= circleExp;
   var radius = circle.background ? circle.radius *= circleExp : circle.radius /= circleExp;
   ctx.beginPath();
-  ctx.arc(circle.x, circle.y, radius * circleExp, 0, 2 * Math.PI, false);
+  ctx.rect(circle.x - (radius * circleExp), circle.y - (radius * circleExp / 2), radius * circleExp * 2, radius * circleExp);
+  // ctx.arc(circle.x, circle.y, radius * circleExp, 0, 2 * Math.PI, false);
   ctx.lineWidth = Math.max(1, circleBorder * (radMin - circle.radius) / (radMin - radMax));
   ctx.strokeStyle = ['rgba(', circle.borderColor, ',', circle.opacity, ')'].join('');
   if (circle.filled == 'full') {
@@ -120,7 +121,9 @@ function drawCircle(ctx, circle) {
   ctx.stroke();
   if (circle.filled == 'concentric') {
     ctx.beginPath();
-    ctx.arc(circle.x, circle.y, radius / 2, 0, 2 * Math.PI, false);
+   // ctx.arc(circle.x, circle.y, radius / 2, 0, 2 * Math.PI, false);
+    ctx.rect(circle.x - (radius * circleExp / 2), circle.y - (radius * circleExp / 4), radius * circleExp * 2 / 2, radius * circleExp / 2);
+    
     ctx.lineWidth = Math.max(1, circleBorder * (radMin - circle.radius) / (radMin - radMax));
     ctx.strokeStyle = ['rgba(', circle.color, ',', circle.opacity, ')'].join('');
     ctx.stroke();
