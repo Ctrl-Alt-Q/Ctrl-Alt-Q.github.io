@@ -1,0 +1,101 @@
+1st International Workshop on Control of Alternatives and Quality
+September 2019, Paris, France
+held in conjunction with SPLC2019 - 23rd International Software Product Line Conference - Sept 9-13 2019
+
+https://ctrl-alt-q.github.io/2019
+
+INTRODUCTION
+This workshop focuses on the state-of-the-art and practice of using variability management to enable the exploration of design, architecture, implementation alternatives regarding the relevant quality attributes of a system or families of systems. Safety, Security and Performance are examples of quality attributes from which quality-of-service must be measured and analysed in configurable or adaptive software architectures and systems. Quality attributes need to be consolidated (i.e., single quality attributes can be independently analysed or tested with different techniques), and, due to being interlinked, they need to be aggregated (i.e., a combined analysis of different quality attributes should be performed to identify tradeoffs or to conduct multi-criteria optimization). The latter point usually aggravates complexity because of the different domains of expertise and life-cycles of the various quality attributes. In this context, interaction points between experts and interference analysis mechanisms of data should be in place. This is important to avoid the late detection of conflicting quality attributes (at design time or at runtime in self-adaptive systems). While the intended focus is on engineering or co-engineering variant-rich safety-, security-, performance- critical systems, other quality attributes (usability, energy consumption etc.) are welcome.
+ 
+IMPORTANT DATES
+Paper submissions: May 28, 2019
+Paper notifications: June 18, 2019
+Final version of papers: July 2, 2019
+Workshop: 9 or 10 September 2019 TBD
+SPLC 2019 Conference: 9-13 September 2019
+
+TOPICS
+We will encourage submissions that push the state of the art and practice in the following topics (but not limited to):
+
+- Quality Assurance and Variability
+Quality-of-service of variability-aware software architectures and systems
+Safety-critical configurable systems
+Cyber-security and configurable systems
+Performance, usability, energy consumption, resource limitations, strict real-time constraints, and, in general, any domain-specific quality attribute on configurable systems
+Testing functional and non-functional properties of configurable systems
+Case studies of configurable systems using variability models with quality attributes
+Metrics for quality attributes enabling alternatives exploration
+Theoretical or empirical validation of aggregated quality assurance
+Surveys, mapping studies, comparative analysis, and literature reviews
+Tools
+
+- Alternatives/Space Exploration
+Mono-criteria optimization of configurations
+Multi-criteria optimization of configurations
+Design alternatives exploration
+Architecture alternatives exploration
+Implementation alternatives exploration
+Tools to support alternatives/space exploration
+Case studies on specific domains
+
+- Quality Aspects across the Product-Life Cycle
+Inter-dependency analysis of quality attributes in variability-aware systems and SPLs
+Product life-cycle and aggregated quality assurance of systems
+Early identification of quality attribute tradeoffs vs. expensive late detection
+Co-engineering regarding quality attributes in variability-aware systems and SPLs
+Quality-driven product configuration
+Organizational issues in dealing with several quality attributes
+Quality assessment activities in SPL development processes
+Quality assurance as part of regulations and standards conformance of configurable systems
+Criticality level comparison among system qualities
+Mediation techniques among system qualities inside organizations dealing with SPLs and configurable systems
+
+- Scenarios
+Quality aspects of self-adaptive systems and dynamic product lines
+Model-driven approaches for aggregated quality assurance and variability
+Simulation and aggregated quality assurance
+Testing and aggregated quality assurance
+
+SUBMISSION DETAILS
+Ctrl + Alt + Q proceedings will be included in SPLC proceedings (Volume 2)
+
+Submission types: Authors interested in participating in the workshop are requested to submit either:
+
+Regular paper (max. 8 pages) that presents original research or industrial experience report
+Short paper (4 pages) that describes sound new ideas and concepts that are under research or experimental studies at industrial settings.
+Format: Submissions must follow the 2017 ACM Master Article Template. 
+Templates for Word and LaTeX are available at https://www.acm.org/publications/proceedings-template
+
+Submission: All papers submitted to the workshop must be unpublished original work and must not have been submitted anywhere else for publication. Each paper will be reviewed by three PC members and accepted papers will be selected based on quality, novelty, and relevance to the workshop topic. At least one author should register and present the paper during the workshop. 
+Papers should be submitted via http://www.easychair.org/conferences/?conf=ctrlaltq2019.
+
+TECHNICAL PROGRAM COMMITTEE
+Aitor Arrieta, University of Mondragon, Spain
+Apostolos Ampatzoglou, University of Macedonia, Greece
+Axel Legay, UC Louvain, Belgium
+Barbara Gallina, Mälardalen University, Sweden
+Charles Robinson, Thales, France
+Gilles Perrouin, University of Namur, Belgium
+John Favaro, Intecs, Italy
+Juliana Alves Pereira, University of Rennes I, INRIA, France
+Leticia Montalvillo, Ikerlan, Spain
+Letitia W. Li, BAE Systems, USA
+Marie-Agnès Peraldi-Frati, Université côte Azur INRIA, France
+Maritta Heisel, University of Duisburg-Essen, Germany
+Maurice H. ter Beek, National Research Council, Italy
+Maxime Cordy, University of Luxembourg, Luxembourg
+Pierre-Yves Schobbens, University of Namur, Belgium
+Radek Fujdiak, Trustport and Brno University of Technology, Czech republic
+Stefan Fischer, Johannes Kepler University, Austria
+Tiziana Fanni, University of Cagliari, Italy
+Vittoriano Muttillo, University of L'Aquila, Italy
+Xabier Larrucea, Tecnalia, Spain
+
+ORGANIZERS
+Jabier Martinez, Digital Trust Technologies (TRUSTECH), Tecnalia, Derio, Spain  (Main Contact)
+Ludovic Apvrille, Telecom ParisTech, Sophia Antipolis, France
+Luigi Pomante, DISIM/DEWS, University of L'Aquila, L'Aquila, Italy
+Matthieu Pfeiffer, and Emmanuel Vaumorin, Magillem, Paris, France
+
+LOCATION
+SPLC2019 will be hosted by FIAP Jean Monnet conference center, located at 30 rue Cabanis, 75014 Paris
