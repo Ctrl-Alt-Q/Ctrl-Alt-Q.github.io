@@ -8,7 +8,7 @@ INTRODUCTION
 This workshop focuses on the state-of-the-art and practice of using variability management to enable the exploration of design, architecture, implementation alternatives regarding the relevant quality attributes of a system or families of systems. Safety, Security and Performance are examples of quality attributes from which quality-of-service must be measured and analysed in configurable or adaptive software architectures and systems. Quality attributes need to be consolidated (i.e., single quality attributes can be independently analysed or tested with different techniques), and, due to being interlinked, they need to be aggregated (i.e., a combined analysis of different quality attributes should be performed to identify tradeoffs or to conduct multi-criteria optimization). The latter point usually aggravates complexity because of the different domains of expertise and life-cycles of the various quality attributes. In this context, interaction points between experts and interference analysis mechanisms of data should be in place. This is important to avoid the late detection of conflicting quality attributes (at design time or at runtime in self-adaptive systems). While the intended focus is on engineering or co-engineering variant-rich safety-, security-, performance- critical systems, other quality attributes (usability, energy consumption etc.) are welcome.
  
 IMPORTANT DATES
-Paper submissions: May 28, 2019
+Paper submissions: May 28, 2019. Extended: June 4, 2019
 Paper notifications: June 18, 2019
 Final version of papers: July 2, 2019
 Workshop: 9 or 10 September 2019 TBD
